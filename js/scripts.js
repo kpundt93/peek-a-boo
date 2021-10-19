@@ -3,4 +3,8 @@ $(document).ready(function() {
     $("#walrus-showing").toggle();
     $("#walrus-hidden").toggle();
   });
+
+  $(".clickfade").click(function() {
+    $("#fade").slideToggle();
+  });
 });

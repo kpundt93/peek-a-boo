@@ -2,9 +2,13 @@
   display: none;
 }
 
+#fade{
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: blue
 }
 
 .clickable:hover {
